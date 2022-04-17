@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.21
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{A5E229E4-D75A-46EF-9710-059B90650FF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4C2F3B9E-05A8-40CA-847D-1148A7449678}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6B2A6410-98DE-4C59-A5B2-3E4114DE1170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TigerCard.Core", "TigerCard.Core\TigerCard.Core.csproj", "{02542A4A-425C-49E4-93EB-571A2FE38E17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin", "Plugin", "{2063B15A-5368-4507-BA52-1B1F88F72AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TigerCard.Plugins", "TigerCard.Plugins\TigerCard.Plugins.csproj", "{7971C60D-E1D3-4F8F-82FC-E9F17B8758FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC5E0D32-D275-44E9-A237-95602E1CDE2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TigerCard.UnitTests", "TigerCard.UnitTests\TigerCard.UnitTests.csproj", "{B2484B19-A5F0-4DF0-B88A-CC53307FFD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TigerCard.Models", "TigerCard.Models\TigerCard.Models.csproj", "{ACDA9B52-8345-4BF8-8BD7-6568CC1D668E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02542A4A-425C-49E4-93EB-571A2FE38E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02542A4A-425C-49E4-93EB-571A2FE38E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02542A4A-425C-49E4-93EB-571A2FE38E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02542A4A-425C-49E4-93EB-571A2FE38E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7971C60D-E1D3-4F8F-82FC-E9F17B8758FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7971C60D-E1D3-4F8F-82FC-E9F17B8758FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7971C60D-E1D3-4F8F-82FC-E9F17B8758FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7971C60D-E1D3-4F8F-82FC-E9F17B8758FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2484B19-A5F0-4DF0-B88A-CC53307FFD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2484B19-A5F0-4DF0-B88A-CC53307FFD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2484B19-A5F0-4DF0-B88A-CC53307FFD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2484B19-A5F0-4DF0-B88A-CC53307FFD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDA9B52-8345-4BF8-8BD7-6568CC1D668E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDA9B52-8345-4BF8-8BD7-6568CC1D668E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDA9B52-8345-4BF8-8BD7-6568CC1D668E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDA9B52-8345-4BF8-8BD7-6568CC1D668E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84BC061A-E26F-42F0-BF77-D5B0312FB6D6}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02542A4A-425C-49E4-93EB-571A2FE38E17} = {4C2F3B9E-05A8-40CA-847D-1148A7449678}
+		{7971C60D-E1D3-4F8F-82FC-E9F17B8758FD} = {2063B15A-5368-4507-BA52-1B1F88F72AF4}
+		{B2484B19-A5F0-4DF0-B88A-CC53307FFD79} = {6B2A6410-98DE-4C59-A5B2-3E4114DE1170}
+		{ACDA9B52-8345-4BF8-8BD7-6568CC1D668E} = {4C2F3B9E-05A8-40CA-847D-1148A7449678}
+	EndGlobalSection
+EndGlobal
